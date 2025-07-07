@@ -23,7 +23,7 @@ type Cluster = {
     /**
      * The 3-bit color representation, also the cluster id
      * without its most relevant bit, in a cluster list the
-     * same color can appear twice
+     * same code can appear twice
      *
      * 0 (0b000) black
      * 1 (0b001) blue
@@ -48,7 +48,7 @@ type Cluster = {
 function by16(
     bytes: Uint8ClampedArray | Uint8Array | Uint16Array | Uint32Array | number[],
     /**
-     * number of channels per pixels
+     * Number of channels per pixel
      * defaults to 4 for r, g, b, a
      */
     pxsize = 4,
@@ -69,20 +69,20 @@ function by16(
         const g = bytes[i + 1];
         const b = bytes[i + 2];
 
-        // NOTE: second most relevant bits of each channel
+        // NOTE: Second most relevant bits of each channel
         const n2relev = (b + (g << 8) + (r << 16)) & 4210752;
 
         const map_i =
-            // NOTE: the 4-bit color id is composed by
+            // NOTE: The 4-bit cluster id is composed by
             // 1-bit "plus" flag + 3-bit color representation
             (
-                // NOTE: the "plus" flag is 1 when at least two
+                // NOTE: The "plus" flag is 1 when at least two
                 // of the second most relevant bits are 1
                 (n2relev & (n2relev - 1) ? 8 : 0)
-                // NOTE: the 3-bit color representation
+                // NOTE: The 3-bit color representation
                 + (b >> 7) + ((g >> 7) << 1) + ((r >> 7) << 2)
             )
-            // NOTE: the map index is the 4-bit color id * 4
+            // NOTE: The map index is the 4-bit cluster id * 4
             * 4;
 
         map[map_i]++;
@@ -103,7 +103,7 @@ function by16(
             bytes[1] = map[map_i + 2] / count;
             bytes[2] = map[map_i + 3] / count;
 
-            const id = map_i >> 2;
+            const id = map_i / 4;
 
             result.push({
                 id,
