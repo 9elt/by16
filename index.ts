@@ -63,7 +63,7 @@ function by16(
     const samples = bytes.length / pxincr;
 
     // NOTE: 16 * (count, red, green, blue)
-    const map = new Uint32Array(64).fill(0);
+    const map = new Float64Array(64).fill(0);
 
     for (let i = 0; i < bytes.length; i += pxincr) {
         const r = bytes[i];
