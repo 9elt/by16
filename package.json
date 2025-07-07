@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "test": "bun test"
+    },
+    "devDependencies": {
+        "@types/bun": "^1.2.18",
+        "jpeg-js": "^0.4.4"
+    }
+}

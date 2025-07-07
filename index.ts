@@ -1,4 +1,4 @@
-type Cluster = {
+export type Cluster = {
     /**
      * The 4-bit cluster id, unique within a cluster list
      *
@@ -45,7 +45,7 @@ type Cluster = {
     bytes: Uint8ClampedArray;
 };
 
-function by16(
+export function by16(
     bytes: Uint8ClampedArray | Uint8Array | Uint16Array | Uint32Array | number[],
     /**
      * Number of channels per pixel
