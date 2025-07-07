@@ -57,7 +57,7 @@ test("two distinct colors", () => {
     }
 });
 
-test("single color shade", () => {
+test("two color shades", () => {
     const bytes = [
         200, 0, 0, 255,
         255, 0, 0, 255,
@@ -79,13 +79,13 @@ test("single color shade", () => {
     expect(b).toBe(0);
 });
 
-test("empty bytes", () => {
+test("empty clusters from empty bytes", () => {
     const bytes = [];
     const clusters = by16(bytes);
     expect(clusters.length).toBe(0);
 });
 
-test("lower stride for images without alpha", () => {
+test("stride = 3 for images without alpha", () => {
     const bytes = [
         255, 0, 0,
         255, 0, 0,
@@ -107,7 +107,7 @@ test("lower stride for images without alpha", () => {
     expect(b).toBe(0);
 });
 
-test("stride * 2 reduces sampling density", () => {
+test("stride * 2 halves sampling density", () => {
     const bytes = [
         255, 0, 0, 255,
         255, 255, 255, 255,
