@@ -53,12 +53,13 @@ function by16(
      */
     pxsize = 4,
     /**
+     * Positive integer to control how densely the image is scanned,
      * 1 to visit every pixel, >1 to reduce sampling density
      * defaults to ceil(bytes / (4K / 2 - 1))
      */
-    step = Math.ceil(bytes.length / 4147199)
+    step = bytes.length / 4147199
 ): Cluster[] {
-    const pxincr = pxsize * step;
+    const pxincr = pxsize * Math.ceil(step);
     const samples = bytes.length / pxincr;
 
     // NOTE: 16 * (count, red, green, blue)
