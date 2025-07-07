@@ -81,7 +81,7 @@ test("single color shade", () => {
 
 test("skyline r-34", () => {
     const bytes = decode(
-        fs.readFileSync("./media/skyline-gtr-34.jpg")
+        fs.readFileSync("./media/skyline-r-34.jpg")
     ).data;
 
     const clusters = by16(bytes);
