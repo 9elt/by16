@@ -4,3 +4,6 @@ scripts
 node_modules
 bun.lockb
 package-lock.json
+index.test.ts
+index.ts
+tsconfig.*

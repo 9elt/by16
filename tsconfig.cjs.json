@@ -1,0 +1,12 @@
+{
+    "include": [
+        "index.ts"
+    ],
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "nodenext",
+        "outDir": "./dist/cjs",
+        "declaration": true,
+        "skipLibCheck": true
+    }
+}

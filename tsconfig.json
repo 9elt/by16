@@ -5,5 +5,7 @@
     ],
     "compilerOptions": {
         "target": "esnext",
+        "moduleResolution": "bundler",
+        "module": "esnext",
     }
 }

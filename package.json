@@ -1,5 +1,27 @@
 {
+    "name": "@9elt/by16",
+    "version": "0.0.1",
+    "description": "A trivial linear-time algorithm to compute the average colors of an image, grouped into clusters based on their 4-bit color representation",
+    "main": "./dist/esm/index.js",
+    "types": "./dist/esm/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/esm/index.js",
+            "require": "./dist/cjs/index.js"
+        }
+    },
+    "author": "Lorenzo Cicuttin",
+    "license": "MIT",
+    "keywords": [
+        "cluster",
+        "color"
+    ],
+    "readme": "./README.md",
+    "homepage": "https://github.com/9elt/by16#readme",
+    "repository": "github:9elt/by16",
     "scripts": {
+        "build": "rm -rf dist && tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json",
+        "pub": "npm run build && npm run test && npm publish",
         "test": "bun test"
     },
     "devDependencies": {
