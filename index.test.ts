@@ -1,7 +1,7 @@
 import { expect, test } from "bun:test";
 import fs from "fs";
 import { decode } from "jpeg-js";
-import { by16 } from ".";
+import { by16 } from "./index";
 
 test("single color", () => {
     const bytes = [255, 255, 255, 255];
@@ -75,6 +75,58 @@ test("single color shade", () => {
     const [r, g, b] = red.bytes;
 
     expect(r).toBe(228);
+    expect(g).toBe(0);
+    expect(b).toBe(0);
+});
+
+test("empty bytes", () => {
+    const bytes = [];
+    const clusters = by16(bytes);
+    expect(clusters.length).toBe(0);
+});
+
+test("lower stride for images without alpha", () => {
+    const bytes = [
+        255, 0, 0,
+        255, 0, 0,
+    ];
+    const clusters = by16(bytes, 3);
+
+    expect(clusters.length).toBe(1);
+
+    const [red] = clusters;
+
+    expect(red.area).toBe(1);
+    expect(red.id).toBe(4);
+    expect(red.code).toBe(4);
+
+    const [r, g, b] = red.bytes;
+
+    expect(r).toBe(255);
+    expect(g).toBe(0);
+    expect(b).toBe(0);
+});
+
+test("stride * 2 reduces sampling density", () => {
+    const bytes = [
+        255, 0, 0, 255,
+        255, 255, 255, 255,
+        255, 0, 0, 255,
+        255, 255, 255, 255,
+    ];
+    const clusters = by16(bytes, 4 * 2);
+
+    expect(clusters.length).toBe(1);
+
+    const [red] = clusters;
+
+    expect(red.area).toBe(1);
+    expect(red.id).toBe(4);
+    expect(red.code).toBe(4);
+
+    const [r, g, b] = red.bytes;
+
+    expect(r).toBe(255);
     expect(g).toBe(0);
     expect(b).toBe(0);
 });

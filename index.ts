@@ -2,22 +2,22 @@ export type Cluster = {
     /**
      * The 4-bit cluster id, unique within a cluster list
      *
-     * 0  (0b0000) black
-     * 1  (0b0001) dark blue
-     * 2  (0b0010) dark green
-     * 3  (0b0011) dark cyan
-     * 4  (0b0100) dark red
-     * 5  (0b0101) dark magenta
-     * 6  (0b0110) dark yellow
-     * 7  (0b0111) dark white (light gray)
-     * 8  (0b1000) light black (gray)
-     * 9  (0b1001) light blue
-     * 10 (0b1010) light green
-     * 11 (0b1011) light cyan
-     * 12 (0b1100) light red
-     * 13 (0b1101) light magenta
-     * 14 (0b1110) light yellow
-     * 15 (0b1111) white
+     * 0  (0b0000) black  
+     * 1  (0b0001) dark blue  
+     * 2  (0b0010) dark green  
+     * 3  (0b0011) dark cyan  
+     * 4  (0b0100) dark red  
+     * 5  (0b0101) dark magenta  
+     * 6  (0b0110) dark yellow  
+     * 7  (0b0111) dark white (light gray)  
+     * 8  (0b1000) light black (gray)  
+     * 9  (0b1001) light blue  
+     * 10 (0b1010) light green  
+     * 11 (0b1011) light cyan  
+     * 12 (0b1100) light red  
+     * 13 (0b1101) light magenta  
+     * 14 (0b1110) light yellow  
+     * 15 (0b1111) white  
      */
     id: number;
     /**
@@ -25,14 +25,14 @@ export type Cluster = {
      * without its most relevant bit, in a cluster list the
      * same code can appear twice
      *
-     * 0 (0b000) black
-     * 1 (0b001) blue
-     * 2 (0b010) green
-     * 3 (0b011) cyan
-     * 4 (0b100) red
-     * 5 (0b101) magenta
-     * 6 (0b110) yellow
-     * 7 (0b111) white
+     * 0 (0b000) black  
+     * 1 (0b001) blue  
+     * 2 (0b010) green  
+     * 3 (0b011) cyan  
+     * 4 (0b100) red  
+     * 5 (0b101) magenta  
+     * 6 (0b110) yellow  
+     * 7 (0b111) white  
      */
     code: number;
     /**
@@ -48,24 +48,18 @@ export type Cluster = {
 export function by16(
     bytes: Uint8ClampedArray | Uint8Array | Uint16Array | Uint32Array | number[],
     /**
-     * Number of channels per pixel
-     * defaults to 4 for r, g, b, a
+     * The number of bytes per pixel, or a multiple thereof to
+     * reduce sampling density, minimum value is 3  
+     * defaults to `4 * Math.ceil(bytes / (3840 * 2160 / 2 - 1))`
      */
-    pxsize = 4,
-    /**
-     * Positive integer to control how densely the image is scanned,
-     * 1 to visit every pixel, >1 to reduce sampling density
-     * defaults to ceil(bytes / (4K / 2 - 1))
-     */
-    step = bytes.length / 4147199
+    stride = 4 * Math.ceil(bytes.length / 4147199),
 ): Cluster[] {
-    const pxincr = pxsize * Math.ceil(step);
-    const samples = bytes.length / pxincr;
+    const samples = bytes.length / stride;
 
     // NOTE: 16 * (count, red, green, blue)
     const map = new Float64Array(64).fill(0);
 
-    for (let i = 0; i < bytes.length; i += pxincr) {
+    for (let i = 0; i < bytes.length; i += stride) {
         const r = bytes[i];
         const g = bytes[i + 1];
         const b = bytes[i + 2];
