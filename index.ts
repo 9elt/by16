@@ -50,7 +50,7 @@ export function by16(
     /**
      * The number of bytes per pixel, or a multiple thereof to
      * reduce sampling density, minimum value is 3  
-     * defaults to `4 * Math.ceil(bytes / (3840 * 2160 / 2 - 1))`
+     * defaults to `4 * Math.ceil(bytes.length / (3840 * 2160 / 2 - 1))`
      */
     stride = 4 * Math.ceil(bytes.length / 4147199),
 ): Cluster[] {
@@ -86,7 +86,7 @@ export function by16(
         map[map_i + 3] += b;
     }
 
-    const result: Cluster[] = [];
+    const clusters: Cluster[] = [];
 
     for (let map_i = 0; map_i < 64; map_i += 4) {
         const count = map[map_i];
@@ -100,7 +100,7 @@ export function by16(
 
             const id = map_i / 4;
 
-            result.push({
+            clusters.push({
                 id,
                 code: id & 7,
                 area: count / samples,
@@ -109,5 +109,5 @@ export function by16(
         }
     }
 
-    return result;
+    return clusters;
 }
