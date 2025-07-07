@@ -1,20 +1,64 @@
-type By4Cluster = {
-    /** The 4-bit color id */
+type Cluster = {
+    /**
+     * The 4-bit cluster id, unique within a cluster list
+     *
+     * 0  (0b0000) black
+     * 1  (0b0001) dark blue
+     * 2  (0b0010) dark green
+     * 3  (0b0011) dark cyan
+     * 4  (0b0100) dark red
+     * 5  (0b0101) dark magenta
+     * 6  (0b0110) dark yellow
+     * 7  (0b0111) dark white (light gray)
+     * 8  (0b1000) light black (gray)
+     * 9  (0b1001) light blue
+     * 10 (0b1010) light green
+     * 11 (0b1011) light cyan
+     * 12 (0b1100) light red
+     * 13 (0b1101) light magenta
+     * 14 (0b1110) light yellow
+     * 15 (0b1111) white
+     */
     id: number;
-    /** The 3-bit color code */
+    /**
+     * The 3-bit color representation, also the cluster id
+     * without its most relevant bit, in a cluster list the
+     * same color can appear twice
+     *
+     * 0 (0b000) black
+     * 1 (0b001) blue
+     * 2 (0b010) green
+     * 3 (0b011) cyan
+     * 4 (0b100) red
+     * 5 (0b101) magenta
+     * 6 (0b110) yellow
+     * 7 (0b111) white
+     */
     code: number;
-    /** The fraction of the total pixels that the color represents */
+    /**
+     * The fraction of the total pixels that the color represents
+     */
     area: number;
-    /** The average color of the cluster */
+    /**
+     * The average color of the cluster
+     */
     bytes: Uint8ClampedArray;
 };
 
-function by4(
-    bytes: Uint8ClampedArray,
+function by16(
+    bytes: Uint8ClampedArray | Uint8Array | Uint16Array | Uint32Array | number[],
+    /**
+     * number of channels per pixels
+     * defaults to 4 for r, g, b, a
+     */
     pxsize = 4,
-    aprox = Math.ceil(bytes.length / 4147200)
-): By4Cluster[] {
-    const pxincr = pxsize * aprox;
+    /**
+     * 1 to visit every pixel, >1 to reduce sampling density
+     * defaults to ceil(bytes / (4K / 2 - 1))
+     */
+    step = Math.ceil(bytes.length / 4147199)
+): Cluster[] {
+    const pxincr = pxsize * step;
     const samples = bytes.length / pxincr;
 
     // NOTE: 16 * (count, red, green, blue)
@@ -47,7 +91,7 @@ function by4(
         map[map_i + 3] += b;
     }
 
-    const result: By4Cluster[] = [];
+    const result: Cluster[] = [];
 
     for (let map_i = 0; map_i < 64; map_i += 4) {
         const count = map[map_i];

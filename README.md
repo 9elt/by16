@@ -1,4 +1,4 @@
-# by4
+# by16
 
 A trivial linear-time algorithm to compute the average colors of an image, grouped
 into clusters based on their 4-bit color representation.
