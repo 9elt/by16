@@ -1,1 +1,369 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="220"><style>svg{font-family: Arial,SanArial,sans-serif;}</style><rect x="0" y="0" width="110" height="110" fill="rgb(0, 0, 0)"/><text x="55" y="39" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0</text><text x="55" y="55" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">#000</text><text x="55" y="71" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0b0000</text><rect x="110" y="0" width="110" height="110" fill="rgb(0, 0, 170)"/><text x="165" y="39" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">1</text><text x="165" y="55" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">#00A</text><text x="165" y="71" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0b0001</text><rect x="220" y="0" width="110" height="110" fill="rgb(0, 170, 0)"/><text x="275" y="39" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">2</text><text x="275" y="55" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">#0A0</text><text x="275" y="71" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0b0010</text><rect x="330" y="0" width="110" height="110" fill="rgb(0, 170, 170)"/><text x="385" y="39" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">3</text><text x="385" y="55" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">#0AA</text><text x="385" y="71" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0b0011</text><rect x="440" y="0" width="110" height="110" fill="rgb(170, 0, 0)"/><text x="495" y="39" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">4</text><text x="495" y="55" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">#A00</text><text x="495" y="71" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0b0100</text><rect x="550" y="0" width="110" height="110" fill="rgb(170, 0, 170)"/><text x="605" y="39" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">5</text><text x="605" y="55" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">#A0A</text><text x="605" y="71" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0b0101</text><rect x="660" y="0" width="110" height="110" fill="rgb(170, 170, 0)"/><text x="715" y="39" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">6</text><text x="715" y="55" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">#AA0</text><text x="715" y="71" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">0b0110</text><rect x="770" y="0" width="110" height="110" fill="rgb(170, 170, 170)"/><text x="825" y="39" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">7</text><text x="825" y="55" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">#AAA</text><text x="825" y="71" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">0b0111</text><rect x="0" y="110" width="110" height="110" fill="rgb(85, 85, 85)"/><text x="55" y="149" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0-plus (8)</text><text x="55" y="165" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">#555</text><text x="55" y="181" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0b1000</text><rect x="110" y="110" width="110" height="110" fill="rgb(85, 85, 255)"/><text x="165" y="149" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">1-plus (9)</text><text x="165" y="165" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">#55F</text><text x="165" y="181" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0b1001</text><rect x="220" y="110" width="110" height="110" fill="rgb(85, 255, 85)"/><text x="275" y="149" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">2-plus (10)</text><text x="275" y="165" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">#5F5</text><text x="275" y="181" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">0b1010</text><rect x="330" y="110" width="110" height="110" fill="rgb(85, 255, 255)"/><text x="385" y="149" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">3-plus (11)</text><text x="385" y="165" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">#5FF</text><text x="385" y="181" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">0b1011</text><rect x="440" y="110" width="110" height="110" fill="rgb(255, 85, 85)"/><text x="495" y="149" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">4-plus (12)</text><text x="495" y="165" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">#F55</text><text x="495" y="181" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">0b1100</text><rect x="550" y="110" width="110" height="110" fill="rgb(255, 85, 255)"/><text x="605" y="149" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">5-plus (13)</text><text x="605" y="165" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">#F5F</text><text x="605" y="181" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">0b1101</text><rect x="660" y="110" width="110" height="110" fill="rgb(255, 255, 85)"/><text x="715" y="149" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">6-plus (14)</text><text x="715" y="165" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">#FF5</text><text x="715" y="181" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">0b1110</text><rect x="770" y="110" width="110" height="110" fill="rgb(255, 255, 255)"/><text x="825" y="149" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">7-plus (15)</text><text x="825" y="165" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">#FFF</text><text x="825" y="181" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">0b1111</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="220"><style>svg{font-family: Arial,SanArial,sans-serif;}</style><defs>
+                <linearGradient id="grad-0-0" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(0, 0, 0)"/>
+                    <stop offset="100%" stop-color="rgb(63, 63, 63) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-0-r" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(64, 0, 0)"/>
+                    <stop offset="100%" stop-color="rgb(127, 63, 63) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-0-g" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(0, 64, 0)"/>
+                    <stop offset="100%" stop-color="rgb(63, 127, 63) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-0-b" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(0, 0, 64)"/>
+                    <stop offset="100%" stop-color="rgb(63, 63, 127) "/>
+                </linearGradient>
+            </defs>
+            <rect x="0" y="0" width="55" height="110" fill="rgb(47.5, 47.5, 47.5)"/>
+            <rect x="55" y="0" width="55" height="27.5" fill="url(#grad-0-0)"/>
+            <rect x="55" y="27.5" width="55" height="27.5" fill="url(#grad-0-0-r)"/>
+            <rect x="55" y="55" width="55" height="27.5" fill="url(#grad-0-0-g)"/>
+            <rect x="55" y="82.5" width="55" height="27.5" fill="url(#grad-0-0-b)"/>
+            <rect x="0" y="0" width="110" height="110" fill="none" stroke="#0D1117" stroke-width="1"/><text x="27.5" y="39" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0</text><text x="27.5" y="55" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">#2f2f2f</text><text x="27.5" y="71" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0b0000</text><defs>
+                <linearGradient id="grad-0-1" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(0, 0, 128)"/>
+                    <stop offset="100%" stop-color="rgb(63, 63, 191) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-1-r" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(64, 0, 128)"/>
+                    <stop offset="100%" stop-color="rgb(127, 63, 191) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-1-g" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(0, 64, 128)"/>
+                    <stop offset="100%" stop-color="rgb(63, 127, 191) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-1-b" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(0, 0, 192)"/>
+                    <stop offset="100%" stop-color="rgb(63, 63, 255) "/>
+                </linearGradient>
+            </defs>
+            <rect x="110" y="0" width="55" height="110" fill="rgb(47.5, 47.5, 175.5)"/>
+            <rect x="165" y="0" width="55" height="27.5" fill="url(#grad-0-1)"/>
+            <rect x="165" y="27.5" width="55" height="27.5" fill="url(#grad-0-1-r)"/>
+            <rect x="165" y="55" width="55" height="27.5" fill="url(#grad-0-1-g)"/>
+            <rect x="165" y="82.5" width="55" height="27.5" fill="url(#grad-0-1-b)"/>
+            <rect x="110" y="0" width="110" height="110" fill="none" stroke="#0D1117" stroke-width="1"/><text x="137.5" y="39" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">1</text><text x="137.5" y="55" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">#2f2faf</text><text x="137.5" y="71" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0b0001</text><defs>
+                <linearGradient id="grad-0-2" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(0, 128, 0)"/>
+                    <stop offset="100%" stop-color="rgb(63, 191, 63) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-2-r" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(64, 128, 0)"/>
+                    <stop offset="100%" stop-color="rgb(127, 191, 63) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-2-g" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(0, 192, 0)"/>
+                    <stop offset="100%" stop-color="rgb(63, 255, 63) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-2-b" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(0, 128, 64)"/>
+                    <stop offset="100%" stop-color="rgb(63, 191, 127) "/>
+                </linearGradient>
+            </defs>
+            <rect x="220" y="0" width="55" height="110" fill="rgb(47.5, 175.5, 47.5)"/>
+            <rect x="275" y="0" width="55" height="27.5" fill="url(#grad-0-2)"/>
+            <rect x="275" y="27.5" width="55" height="27.5" fill="url(#grad-0-2-r)"/>
+            <rect x="275" y="55" width="55" height="27.5" fill="url(#grad-0-2-g)"/>
+            <rect x="275" y="82.5" width="55" height="27.5" fill="url(#grad-0-2-b)"/>
+            <rect x="220" y="0" width="110" height="110" fill="none" stroke="#0D1117" stroke-width="1"/><text x="247.5" y="39" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">2</text><text x="247.5" y="55" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">#2faf2f</text><text x="247.5" y="71" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0b0010</text><defs>
+                <linearGradient id="grad-0-3" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(0, 128, 128)"/>
+                    <stop offset="100%" stop-color="rgb(63, 191, 191) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-3-r" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(64, 128, 128)"/>
+                    <stop offset="100%" stop-color="rgb(127, 191, 191) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-3-g" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(0, 192, 128)"/>
+                    <stop offset="100%" stop-color="rgb(63, 255, 191) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-3-b" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(0, 128, 192)"/>
+                    <stop offset="100%" stop-color="rgb(63, 191, 255) "/>
+                </linearGradient>
+            </defs>
+            <rect x="330" y="0" width="55" height="110" fill="rgb(47.5, 175.5, 175.5)"/>
+            <rect x="385" y="0" width="55" height="27.5" fill="url(#grad-0-3)"/>
+            <rect x="385" y="27.5" width="55" height="27.5" fill="url(#grad-0-3-r)"/>
+            <rect x="385" y="55" width="55" height="27.5" fill="url(#grad-0-3-g)"/>
+            <rect x="385" y="82.5" width="55" height="27.5" fill="url(#grad-0-3-b)"/>
+            <rect x="330" y="0" width="110" height="110" fill="none" stroke="#0D1117" stroke-width="1"/><text x="357.5" y="39" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">3</text><text x="357.5" y="55" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">#2fafaf</text><text x="357.5" y="71" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0b0011</text><defs>
+                <linearGradient id="grad-0-4" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(128, 0, 0)"/>
+                    <stop offset="100%" stop-color="rgb(191, 63, 63) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-4-r" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(192, 0, 0)"/>
+                    <stop offset="100%" stop-color="rgb(255, 63, 63) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-4-g" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(128, 64, 0)"/>
+                    <stop offset="100%" stop-color="rgb(191, 127, 63) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-4-b" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(128, 0, 64)"/>
+                    <stop offset="100%" stop-color="rgb(191, 63, 127) "/>
+                </linearGradient>
+            </defs>
+            <rect x="440" y="0" width="55" height="110" fill="rgb(175.5, 47.5, 47.5)"/>
+            <rect x="495" y="0" width="55" height="27.5" fill="url(#grad-0-4)"/>
+            <rect x="495" y="27.5" width="55" height="27.5" fill="url(#grad-0-4-r)"/>
+            <rect x="495" y="55" width="55" height="27.5" fill="url(#grad-0-4-g)"/>
+            <rect x="495" y="82.5" width="55" height="27.5" fill="url(#grad-0-4-b)"/>
+            <rect x="440" y="0" width="110" height="110" fill="none" stroke="#0D1117" stroke-width="1"/><text x="467.5" y="39" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">4</text><text x="467.5" y="55" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">#af2f2f</text><text x="467.5" y="71" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0b0100</text><defs>
+                <linearGradient id="grad-0-5" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(128, 0, 128)"/>
+                    <stop offset="100%" stop-color="rgb(191, 63, 191) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-5-r" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(192, 0, 128)"/>
+                    <stop offset="100%" stop-color="rgb(255, 63, 191) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-5-g" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(128, 64, 128)"/>
+                    <stop offset="100%" stop-color="rgb(191, 127, 191) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-5-b" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(128, 0, 192)"/>
+                    <stop offset="100%" stop-color="rgb(191, 63, 255) "/>
+                </linearGradient>
+            </defs>
+            <rect x="550" y="0" width="55" height="110" fill="rgb(175.5, 47.5, 175.5)"/>
+            <rect x="605" y="0" width="55" height="27.5" fill="url(#grad-0-5)"/>
+            <rect x="605" y="27.5" width="55" height="27.5" fill="url(#grad-0-5-r)"/>
+            <rect x="605" y="55" width="55" height="27.5" fill="url(#grad-0-5-g)"/>
+            <rect x="605" y="82.5" width="55" height="27.5" fill="url(#grad-0-5-b)"/>
+            <rect x="550" y="0" width="110" height="110" fill="none" stroke="#0D1117" stroke-width="1"/><text x="577.5" y="39" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">5</text><text x="577.5" y="55" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">#af2faf</text><text x="577.5" y="71" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0b0101</text><defs>
+                <linearGradient id="grad-0-6" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(128, 128, 0)"/>
+                    <stop offset="100%" stop-color="rgb(191, 191, 63) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-6-r" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(192, 128, 0)"/>
+                    <stop offset="100%" stop-color="rgb(255, 191, 63) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-6-g" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(128, 192, 0)"/>
+                    <stop offset="100%" stop-color="rgb(191, 255, 63) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-6-b" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(128, 128, 64)"/>
+                    <stop offset="100%" stop-color="rgb(191, 191, 127) "/>
+                </linearGradient>
+            </defs>
+            <rect x="660" y="0" width="55" height="110" fill="rgb(175.5, 175.5, 47.5)"/>
+            <rect x="715" y="0" width="55" height="27.5" fill="url(#grad-0-6)"/>
+            <rect x="715" y="27.5" width="55" height="27.5" fill="url(#grad-0-6-r)"/>
+            <rect x="715" y="55" width="55" height="27.5" fill="url(#grad-0-6-g)"/>
+            <rect x="715" y="82.5" width="55" height="27.5" fill="url(#grad-0-6-b)"/>
+            <rect x="660" y="0" width="110" height="110" fill="none" stroke="#0D1117" stroke-width="1"/><text x="687.5" y="39" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">6</text><text x="687.5" y="55" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">#afaf2f</text><text x="687.5" y="71" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">0b0110</text><defs>
+                <linearGradient id="grad-0-7" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(128, 128, 128)"/>
+                    <stop offset="100%" stop-color="rgb(191, 191, 191) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-7-r" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(192, 128, 128)"/>
+                    <stop offset="100%" stop-color="rgb(255, 191, 191) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-7-g" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(128, 192, 128)"/>
+                    <stop offset="100%" stop-color="rgb(191, 255, 191) "/>
+                </linearGradient>
+                <linearGradient id="grad-0-7-b" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(128, 128, 192)"/>
+                    <stop offset="100%" stop-color="rgb(191, 191, 255) "/>
+                </linearGradient>
+            </defs>
+            <rect x="770" y="0" width="55" height="110" fill="rgb(175.5, 175.5, 175.5)"/>
+            <rect x="825" y="0" width="55" height="27.5" fill="url(#grad-0-7)"/>
+            <rect x="825" y="27.5" width="55" height="27.5" fill="url(#grad-0-7-r)"/>
+            <rect x="825" y="55" width="55" height="27.5" fill="url(#grad-0-7-g)"/>
+            <rect x="825" y="82.5" width="55" height="27.5" fill="url(#grad-0-7-b)"/>
+            <rect x="770" y="0" width="110" height="110" fill="none" stroke="#0D1117" stroke-width="1"/><text x="797.5" y="39" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">7</text><text x="797.5" y="55" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">#afafaf</text><text x="797.5" y="71" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">0b0111</text><defs>
+                <linearGradient id="grad-1-8" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(64, 64, 64)"/>
+                    <stop offset="100%" stop-color="rgb(127, 127, 127) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-8-r" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(64, 0, 64)"/>
+                    <stop offset="100%" stop-color="rgb(127, 63, 127) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-8-g" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(64, 64, 0)"/>
+                    <stop offset="100%" stop-color="rgb(127, 127, 63) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-8-b" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(0, 64, 64)"/>
+                    <stop offset="100%" stop-color="rgb(63, 127, 127) "/>
+                </linearGradient>
+            </defs>
+            <rect x="0" y="110" width="55" height="110" fill="rgb(79.5, 79.5, 79.5)"/>
+            <rect x="55" y="110" width="55" height="27.5" fill="url(#grad-1-8)"/>
+            <rect x="55" y="137.5" width="55" height="27.5" fill="url(#grad-1-8-r)"/>
+            <rect x="55" y="165" width="55" height="27.5" fill="url(#grad-1-8-g)"/>
+            <rect x="55" y="192.5" width="55" height="27.5" fill="url(#grad-1-8-b)"/>
+            <rect x="0" y="110" width="110" height="110" fill="none" stroke="#0D1117" stroke-width="1"/><text x="27.5" y="149" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0+ (8)</text><text x="27.5" y="165" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">#4f4f4f</text><text x="27.5" y="181" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0b1000</text><defs>
+                <linearGradient id="grad-1-9" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(64, 64, 192)"/>
+                    <stop offset="100%" stop-color="rgb(127, 127, 255) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-9-r" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(64, 0, 192)"/>
+                    <stop offset="100%" stop-color="rgb(127, 63, 255) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-9-g" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(64, 64, 128)"/>
+                    <stop offset="100%" stop-color="rgb(127, 127, 191) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-9-b" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(0, 64, 192)"/>
+                    <stop offset="100%" stop-color="rgb(63, 127, 255) "/>
+                </linearGradient>
+            </defs>
+            <rect x="110" y="110" width="55" height="110" fill="rgb(79.5, 79.5, 207.5)"/>
+            <rect x="165" y="110" width="55" height="27.5" fill="url(#grad-1-9)"/>
+            <rect x="165" y="137.5" width="55" height="27.5" fill="url(#grad-1-9-r)"/>
+            <rect x="165" y="165" width="55" height="27.5" fill="url(#grad-1-9-g)"/>
+            <rect x="165" y="192.5" width="55" height="27.5" fill="url(#grad-1-9-b)"/>
+            <rect x="110" y="110" width="110" height="110" fill="none" stroke="#0D1117" stroke-width="1"/><text x="137.5" y="149" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">1+ (9)</text><text x="137.5" y="165" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">#4f4fcf</text><text x="137.5" y="181" fill="#ffffff" font-size="12" text-anchor="middle" dominant-baseline="middle">0b1001</text><defs>
+                <linearGradient id="grad-1-10" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(64, 192, 64)"/>
+                    <stop offset="100%" stop-color="rgb(127, 255, 127) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-10-r" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(64, 128, 64)"/>
+                    <stop offset="100%" stop-color="rgb(127, 191, 127) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-10-g" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(64, 192, 0)"/>
+                    <stop offset="100%" stop-color="rgb(127, 255, 63) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-10-b" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(0, 192, 64)"/>
+                    <stop offset="100%" stop-color="rgb(63, 255, 127) "/>
+                </linearGradient>
+            </defs>
+            <rect x="220" y="110" width="55" height="110" fill="rgb(79.5, 207.5, 79.5)"/>
+            <rect x="275" y="110" width="55" height="27.5" fill="url(#grad-1-10)"/>
+            <rect x="275" y="137.5" width="55" height="27.5" fill="url(#grad-1-10-r)"/>
+            <rect x="275" y="165" width="55" height="27.5" fill="url(#grad-1-10-g)"/>
+            <rect x="275" y="192.5" width="55" height="27.5" fill="url(#grad-1-10-b)"/>
+            <rect x="220" y="110" width="110" height="110" fill="none" stroke="#0D1117" stroke-width="1"/><text x="247.5" y="149" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">2+ (10)</text><text x="247.5" y="165" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">#4fcf4f</text><text x="247.5" y="181" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">0b1010</text><defs>
+                <linearGradient id="grad-1-11" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(64, 192, 192)"/>
+                    <stop offset="100%" stop-color="rgb(127, 255, 255) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-11-r" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(64, 128, 192)"/>
+                    <stop offset="100%" stop-color="rgb(127, 191, 255) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-11-g" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(64, 192, 128)"/>
+                    <stop offset="100%" stop-color="rgb(127, 255, 191) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-11-b" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(0, 192, 192)"/>
+                    <stop offset="100%" stop-color="rgb(63, 255, 255) "/>
+                </linearGradient>
+            </defs>
+            <rect x="330" y="110" width="55" height="110" fill="rgb(79.5, 207.5, 207.5)"/>
+            <rect x="385" y="110" width="55" height="27.5" fill="url(#grad-1-11)"/>
+            <rect x="385" y="137.5" width="55" height="27.5" fill="url(#grad-1-11-r)"/>
+            <rect x="385" y="165" width="55" height="27.5" fill="url(#grad-1-11-g)"/>
+            <rect x="385" y="192.5" width="55" height="27.5" fill="url(#grad-1-11-b)"/>
+            <rect x="330" y="110" width="110" height="110" fill="none" stroke="#0D1117" stroke-width="1"/><text x="357.5" y="149" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">3+ (11)</text><text x="357.5" y="165" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">#4fcfcf</text><text x="357.5" y="181" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">0b1011</text><defs>
+                <linearGradient id="grad-1-12" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(192, 64, 64)"/>
+                    <stop offset="100%" stop-color="rgb(255, 127, 127) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-12-r" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(192, 0, 64)"/>
+                    <stop offset="100%" stop-color="rgb(255, 63, 127) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-12-g" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(192, 64, 0)"/>
+                    <stop offset="100%" stop-color="rgb(255, 127, 63) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-12-b" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(128, 64, 64)"/>
+                    <stop offset="100%" stop-color="rgb(191, 127, 127) "/>
+                </linearGradient>
+            </defs>
+            <rect x="440" y="110" width="55" height="110" fill="rgb(207.5, 79.5, 79.5)"/>
+            <rect x="495" y="110" width="55" height="27.5" fill="url(#grad-1-12)"/>
+            <rect x="495" y="137.5" width="55" height="27.5" fill="url(#grad-1-12-r)"/>
+            <rect x="495" y="165" width="55" height="27.5" fill="url(#grad-1-12-g)"/>
+            <rect x="495" y="192.5" width="55" height="27.5" fill="url(#grad-1-12-b)"/>
+            <rect x="440" y="110" width="110" height="110" fill="none" stroke="#0D1117" stroke-width="1"/><text x="467.5" y="149" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">4+ (12)</text><text x="467.5" y="165" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">#cf4f4f</text><text x="467.5" y="181" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">0b1100</text><defs>
+                <linearGradient id="grad-1-13" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(192, 64, 192)"/>
+                    <stop offset="100%" stop-color="rgb(255, 127, 255) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-13-r" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(192, 0, 192)"/>
+                    <stop offset="100%" stop-color="rgb(255, 63, 255) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-13-g" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(192, 64, 128)"/>
+                    <stop offset="100%" stop-color="rgb(255, 127, 191) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-13-b" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(128, 64, 192)"/>
+                    <stop offset="100%" stop-color="rgb(191, 127, 255) "/>
+                </linearGradient>
+            </defs>
+            <rect x="550" y="110" width="55" height="110" fill="rgb(207.5, 79.5, 207.5)"/>
+            <rect x="605" y="110" width="55" height="27.5" fill="url(#grad-1-13)"/>
+            <rect x="605" y="137.5" width="55" height="27.5" fill="url(#grad-1-13-r)"/>
+            <rect x="605" y="165" width="55" height="27.5" fill="url(#grad-1-13-g)"/>
+            <rect x="605" y="192.5" width="55" height="27.5" fill="url(#grad-1-13-b)"/>
+            <rect x="550" y="110" width="110" height="110" fill="none" stroke="#0D1117" stroke-width="1"/><text x="577.5" y="149" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">5+ (13)</text><text x="577.5" y="165" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">#cf4fcf</text><text x="577.5" y="181" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">0b1101</text><defs>
+                <linearGradient id="grad-1-14" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(192, 192, 64)"/>
+                    <stop offset="100%" stop-color="rgb(255, 255, 127) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-14-r" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(192, 128, 64)"/>
+                    <stop offset="100%" stop-color="rgb(255, 191, 127) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-14-g" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(192, 192, 0)"/>
+                    <stop offset="100%" stop-color="rgb(255, 255, 63) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-14-b" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(128, 192, 64)"/>
+                    <stop offset="100%" stop-color="rgb(191, 255, 127) "/>
+                </linearGradient>
+            </defs>
+            <rect x="660" y="110" width="55" height="110" fill="rgb(207.5, 207.5, 79.5)"/>
+            <rect x="715" y="110" width="55" height="27.5" fill="url(#grad-1-14)"/>
+            <rect x="715" y="137.5" width="55" height="27.5" fill="url(#grad-1-14-r)"/>
+            <rect x="715" y="165" width="55" height="27.5" fill="url(#grad-1-14-g)"/>
+            <rect x="715" y="192.5" width="55" height="27.5" fill="url(#grad-1-14-b)"/>
+            <rect x="660" y="110" width="110" height="110" fill="none" stroke="#0D1117" stroke-width="1"/><text x="687.5" y="149" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">6+ (14)</text><text x="687.5" y="165" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">#cfcf4f</text><text x="687.5" y="181" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">0b1110</text><defs>
+                <linearGradient id="grad-1-15" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(192, 192, 192)"/>
+                    <stop offset="100%" stop-color="rgb(255, 255, 255) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-15-r" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(192, 128, 192)"/>
+                    <stop offset="100%" stop-color="rgb(255, 191, 255) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-15-g" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(192, 192, 128)"/>
+                    <stop offset="100%" stop-color="rgb(255, 255, 191) "/>
+                </linearGradient>
+                <linearGradient id="grad-1-15-b" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(128, 192, 192)"/>
+                    <stop offset="100%" stop-color="rgb(191, 255, 255) "/>
+                </linearGradient>
+            </defs>
+            <rect x="770" y="110" width="55" height="110" fill="rgb(207.5, 207.5, 207.5)"/>
+            <rect x="825" y="110" width="55" height="27.5" fill="url(#grad-1-15)"/>
+            <rect x="825" y="137.5" width="55" height="27.5" fill="url(#grad-1-15-r)"/>
+            <rect x="825" y="165" width="55" height="27.5" fill="url(#grad-1-15-g)"/>
+            <rect x="825" y="192.5" width="55" height="27.5" fill="url(#grad-1-15-b)"/>
+            <rect x="770" y="110" width="110" height="110" fill="none" stroke="#0D1117" stroke-width="1"/><text x="797.5" y="149" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">7+ (15)</text><text x="797.5" y="165" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">#cfcfcf</text><text x="797.5" y="181" fill="#000000" font-size="12" text-anchor="middle" dominant-baseline="middle">0b1111</text></svg>
