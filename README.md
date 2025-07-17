@@ -10,3 +10,6 @@ This algorithm is designed for speed rather than flexibility or quality. It uses
 images at runtime with minimal overhead.
 
 ![clusters chart](./media/clusters-chart.svg)
+
+![color space](./media/color-space.png)
+![color space clusters](./media/color-space-clusters.png)
