@@ -11,5 +11,8 @@ images at runtime with minimal overhead.
 
 ![clusters chart](./media/clusters-chart.svg)
 
+The following image displays a 3D representation of the HSL color model,
+alongside its counterpart averaged into the 16 clusters.
+
 ![color space](./media/color-space.png)
 ![color space clusters](./media/color-space-clusters.png)
